@@ -22,7 +22,6 @@ public class DatabaseInitializer {
                     "name TEXT NOT NULL);";
             statement.execute(createTableSQL);
 
-            // Вставка данных
             String insertDataSQL = "INSERT INTO study.music (id, name) " +
                     "SELECT * FROM (VALUES " +
                     "(1, 'Bohemian Rhapsody')," +

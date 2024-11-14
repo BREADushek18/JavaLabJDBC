@@ -24,6 +24,18 @@ public class Main {
                 case 4:
                     CreateBaVTables.createTables();
                     break;
+                case 5:
+                    SortedBooks.displaySortedBooks();
+                    break;
+                case 6:
+                    Books2000.BooksYounger2000();
+                    break;
+                case 7:
+                    AddPersonalInfo.addPersonalInfo();
+                    break;
+                case 8:
+                    DeleteTables.deleteTables();
+                    break;
                 default:
                     System.out.println("Неверный номер задания.");
             }
