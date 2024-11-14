@@ -18,6 +18,12 @@ public class Main {
                 case 2:
                     MusicFilter.fetchFilteredMusic();
                     break;
+                case 3:
+                    AddFavoriteSong.addFavoriteSong();
+                    break;
+                case 4:
+                    CreateBaVTables.createTables();
+                    break;
                 default:
                     System.out.println("Неверный номер задания.");
             }
